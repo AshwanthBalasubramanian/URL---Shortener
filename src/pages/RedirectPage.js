@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getUrlData, saveUrlData } from "../utils/helpers";
+import { getUrlData } from "../utils/helpers";
 import { logger } from "../utils/logger";
 
 export default function RedirectPage() {
